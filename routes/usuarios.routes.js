@@ -4,13 +4,11 @@ const { usuariosGet, usuariosPut, usuariosPost, usuariosDelete, usuariosPatch } 
 
 //Usuarios
 router.get('/', usuariosGet);
-
 router.put('/:id', usuariosPut);
-
 router.post('/', usuariosPost);
-
 router.patch('/', usuariosPatch);
-
 router.delete('/', usuariosDelete);
+
+
 
 module.exports = router;
